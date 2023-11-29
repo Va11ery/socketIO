@@ -33,11 +33,7 @@
 
       <n-button type="success" @click="createFolder">Создать папки</n-button>
 
-      <n-space style="margin-bottom: 25px">
-        <p>Загрузка файла:</p>
-        <input type="file" ref="fileInput" @change="handleFileUpload" />
-        <n-button @click="uploadFile">Upload File</n-button>
-      </n-space>
+     
     </div>
   </div>
 </template>
